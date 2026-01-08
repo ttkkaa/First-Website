@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+.first {
+    min-height: 100vh;
+    padding-top: 60px;
+    background-image: url(/Photos/c837a6_8bdf6d31716e47f28f553df74033ed63~mv2.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.first::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 0;
+}
+
+.first * {
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    background-color: #FFFDF2;
+    height: 100px;
+    width: 88%;
+    margin: 0 auto;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.navleftside {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navleftside img {
+    height: 30px;
+    width: 28px;
+}
+
+.navleftside a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #092423;
+}
+
+
+
+.navlist {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navlist ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: #092423;
+}
+
+.navlist ul li a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login i {
+    font-size: 24px;
+}
+
+
+.navlist button {
+    width: 160px;
+    height: 38px;
+    background-color: #092423;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    transition: 0.3s;
+}
+
+.navlist button:hover {
+    background-color: #FFFDF2;
+    color: #092423;
+    border: 1px solid #092423;
+}
+
+.hero-text {
+    margin-top: 120px;
+    margin-left: 100px;
+    max-width: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+.hero-text button {
+    width: 200px;
+    height: 58px;
+    border-radius: 50px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.hero-form {
+    background-color: #FFF9B0;
+    width: 700px;
+    height: 400px;
+    border-radius: 6px;
+    margin: 120px auto;
+    padding: 40px;
+}
