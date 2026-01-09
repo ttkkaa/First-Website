@@ -209,7 +209,7 @@ form h4 {
 
 .tlineinput {
     display: flex;
-    gap: 10px;
+    gap: 27px;
 }
 
 .tlineinput .soption {
@@ -399,163 +399,159 @@ form button:hover {
     width: 70%;
 }
 
-.fifth {
-    width: 100%;
-    height: 470px;
-    background-image: url(Photos/c837a6_fd16501d8d69465c8b186e3b560f72dc~mv2.avif);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: #FFFDF2;
-    padding-top: 120px;
-    position: relative;
-}
+ .hero {
+            background-color: #f8f8f8;
+            padding: 100px 20px;
+            text-align: center;
+        }
 
-.fifth::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(70, 75, 70, 0.748);
-    z-index: 0;
-}
+        .hero h1 {
+            font-size: 64px;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
 
-.fifth * {
-    position: relative;
-    z-index: 1;
-}
+        .section {
+            padding: 100px 20px;
+        }
 
-.fifth .allicons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-.fifth h2 {
-    font-size: 45px;
-    font-weight: 300;
-    margin-bottom: 40px;
-}
+        .section-title {
+            text-align: center;
+            font-size: 48px;
+            font-weight: 300;
+            color: #2b2b2b;
+            margin-bottom: 80px;
+            letter-spacing: -0.5px;
+        }
 
-.fifth .icons1 img {
-    width: 130px;
-}
+        .subtitle {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            color: #666666;
+            margin-bottom: 50px;
+        }
 
-.fifth .icons2 img {
-    width: 82px;
-    margin-top: 7px;
-    margin-bottom: 10px;
-}
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
 
-.fifth .icons3 img {
-    width: 105px;
-    margin-top: 15px;
-}
+        .image-wrapper {
+            position: relative;
+            width: 100%;
+        }
 
-.fifth .icons4 img {
-    width: 112px;
-    margin-top: 15px;
-}
+        .image-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 0;
+        }
 
-.fifth .icon img {
-    width: 60px;
-    margin-top: 45px;
-}
+        .label {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #2b2b2b;
+        }
 
-.sixth {
-    width: 100%;
-    height: 90vh;
-    background-color: #4C5B5C;
-    display: flex;
-}
+        .services {
+            background-color: #f8f8f8;
+            padding: 100px 20px;
+            text-align: center;
+        }
 
-.sixth .left {
-    color: white;
-    width: 50%;
-    margin-top: 250px;
-    margin-left: 150px;
-}
+        .services h2 {
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 60px;
+        }
 
-.sixth .left h1 {
-    font-size: 48px;
-    font-weight: 300;
-    margin-bottom: 15px;
-}
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-.sixth .left p {
-    font-size: 18px;
-    font-weight: 300;
-    margin-bottom: 25px;
-}
+        .service-card {
+            background: white;
+            padding: 40px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
 
-.sixth .left button {
-    width: 200px;
-    height: 50px;
-    color: #4C5B5C;
-    background-color: white;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: 0.5s;
-}
+        .service-card h3 {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
 
-.sixth .left button:hover {
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-}
+        .service-card p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+        }
 
-.sixth .right {
-    width: 50%;
-}
+        .cta-section {
+            padding: 100px 20px;
+            text-align: center;
+            background-color: #2b2b2b;
+            color: white;
+        }
 
-.sixth .right .card {
-    width: 400px;
-    height: 480px;
-    background-color: white;
-    margin-top: 120px;
-    margin-left: 25px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
+        .cta-section h2 {
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
 
-.sixth .right .card .cardtop {
-    position: relative;
-    background-color: #FFF9B0;
-    width: 100%;
-    height: 45%;
-    text-align: center;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
+        .cta-section button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 18px 50px;
+            font-size: 18px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
 
-.cardtop p:first-of-type{
-    position: absolute;
-    padding: 1px;
-    top: -8px;
-    left: 160px;
-    width: 80px;
-    height: 23px;
-    font-size: 14px;
-    color: white;
-    background-color: #092423;
-    font-weight: 300;
-}
+        .cta-section button:hover {
+            background-color: #357abd;
+        }
 
-.sixth .cardtop h3 {
-    padding-top: 40px;
-    font-weight: 300;
-    font-size: 20px;
-}
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 36px;
+                margin-bottom: 50px;
+            }
 
-.sixth .cardtop .doll {
-    font-size: 20px;
-    font-weight: 200;
-    color: #092423;
-}
- 
-.sixth .cardtop .cifri {
-    font-weight: 700;
-    font-size: 25px;
-    color: #092423;
-}
+            .comparison {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .service-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .hero h1 {
+                font-size: 42px;
+            }
+        }

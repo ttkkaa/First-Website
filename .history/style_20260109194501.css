@@ -531,31 +531,11 @@ form button:hover {
 
 .cardtop p:first-of-type{
     position: absolute;
-    padding: 1px;
-    top: -8px;
+    top: -5px;
     left: 160px;
-    width: 80px;
-    height: 23px;
-    font-size: 14px;
+    width: 70px;
+    height: 30px;
+    font-size: 8px;
     color: white;
     background-color: #092423;
-    font-weight: 300;
-}
-
-.sixth .cardtop h3 {
-    padding-top: 40px;
-    font-weight: 300;
-    font-size: 20px;
-}
-
-.sixth .cardtop .doll {
-    font-size: 20px;
-    font-weight: 200;
-    color: #092423;
-}
- 
-.sixth .cardtop .cifri {
-    font-weight: 700;
-    font-size: 25px;
-    color: #092423;
 }

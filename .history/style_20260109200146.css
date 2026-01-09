@@ -546,16 +546,9 @@ form button:hover {
     padding-top: 40px;
     font-weight: 300;
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
 .sixth .cardtop .doll {
-    font-size: 20px;
-    font-weight: 200;
-    color: #092423;
-}
- 
-.sixth .cardtop .cifri {
-    font-weight: 700;
-    font-size: 25px;
-    color: #092423;
+    font-size: 12px;
 }
