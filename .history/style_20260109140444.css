@@ -148,7 +148,7 @@ nav {
 form {
     background-color: #FFF9B0;
     width: 730px;
-    height: 550px;
+    height: 450px;
     border-radius: 6px;
     margin-left: 670px;
     margin-top: 145px;
@@ -162,7 +162,7 @@ form {
 
 form h2 {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 28px;
     margin-top: 10px;
 }
 
@@ -190,7 +190,7 @@ form h4 {
 .flineinput, .slineinput{
     display: flex;
     width: 100%;
-    gap:  10px;
+    gap:  20px;
 }
 
 .flineinput input, .slineinput input, .tlineinput .foption  {
@@ -301,79 +301,6 @@ form button:hover {
 .third {
     width: 100%;
     background-color: #4C5B5C;
-    height: 110vh;
+    height: 150vh;
     margin-top: 80px;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.third h2 {
-    color: #FFFDF2;
-    font-size: 45px;
-    font-weight: 300;
-}
-
-.third p {
-    color: #FFFDF2;
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.third .photos {
-    display: flex;
-    gap: 23px;
-}
-
-.third .photo {
-    margin-top: 50px;
-    border-radius: 10px;
-    overflow: hidden;
-    width: 420px;
-    height: 560px;
-    position: relative;
-}
-
-.third .photo1 {
-    margin-left: 100px;
-}
-
-
-.third .photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.third .photo:hover img {
-    transform: scale(1.1)
-}
-
-.third .photos .photo p {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    color: #f0f0f0;
-    font-size: 24px;
-    font-weight: 500;
-    padding: 10px 15px;
-    z-index: 2;
-}
-
-
-.third .photos .photo:nth-last-child(-n+3)::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.25);
-    z-index: 1;
-}
-
-.third button {
-    margin-top: 45px;
-    height: 40px;
-    width: 150px;
-    border: none;
-    border-radius: 50px;
 }

@@ -6,12 +6,12 @@
 }
 
 .first {
-    height: 120vh;
+    height: 100vh;
     padding-top: 40px;
     background-image: url(/Photos/c837a6_8bdf6d31716e47f28f553df74033ed63~mv2.avif);
     background-size: cover;
     background-position: center;
-    background-attachment: static;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -148,10 +148,10 @@ nav {
 form {
     background-color: #FFF9B0;
     width: 730px;
-    height: 550px;
+    height: 600px;
     border-radius: 6px;
     margin-left: 670px;
-    margin-top: 145px;
+    margin-top: 90px;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -162,14 +162,14 @@ form {
 
 form h2 {
     font-weight: 300;
-    font-size: 24px;
-    margin-top: 10px;
+    font-size: 28px;
+    margin-top: -10px;
 }
 
 form h4 {
     font-weight: 300;
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .fline {
@@ -190,16 +190,16 @@ form h4 {
 .flineinput, .slineinput{
     display: flex;
     width: 100%;
-    gap:  10px;
+    gap:  25px;
 }
 
 .flineinput input, .slineinput input, .tlineinput .foption  {
     width: 200px;
-    height: 35px;
+    height: 40px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: transparent; 
-    margin-bottom: 10px;  
+    margin-bottom: 15px;  
 }
 
 .tline {
@@ -217,7 +217,7 @@ form h4 {
     border: 1px solid black;
     background-color: transparent;
     border-radius: 10px;
-    height: 35px;
+    height: 40px;
 }
 
 .tline {
@@ -231,7 +231,7 @@ form p {
 
 form button {
     width: 230px;
-    height: 35px;
+    height: 45px;
     border: none;
     border-radius: 50px;
     color: white;
@@ -240,8 +240,6 @@ form button {
     transition: 0.6s;
     margin-left: 220px;
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
-
 }
 
 form button:hover {
@@ -261,119 +259,6 @@ form button:hover {
 }
 
 .second h2 {
-    margin-top: 430px;
+    margin-top: 600px;
     margin-left: 80px;
-    font-size: 45px;
-    font-weight: 300;
-}
-
-.second .cards {
-    display: flex;
-    gap: 15px;
-
-}
-
-.second .card1 {
-    margin-left: 85px;
-}
-
-.second .card {
-    background-color: #FFF9B0;
-    width: 323px;
-    height: 330px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-left: 40px;
-    padding-top: 50px;
-} 
-
-.second .card h3 {
-    font-weight: 300;
-    font-size: 23px;
-}
-
-.second .card p {
-    font-weight: 200;
-}
-
-.third {
-    width: 100%;
-    background-color: #4C5B5C;
-    height: 110vh;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.third h2 {
-    color: #FFFDF2;
-    font-size: 45px;
-    font-weight: 300;
-}
-
-.third p {
-    color: #FFFDF2;
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.third .photos {
-    display: flex;
-    gap: 23px;
-}
-
-.third .photo {
-    margin-top: 50px;
-    border-radius: 10px;
-    overflow: hidden;
-    width: 420px;
-    height: 560px;
-    position: relative;
-}
-
-.third .photo1 {
-    margin-left: 100px;
-}
-
-
-.third .photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.third .photo:hover img {
-    transform: scale(1.1)
-}
-
-.third .photos .photo p {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    color: #f0f0f0;
-    font-size: 24px;
-    font-weight: 500;
-    padding: 10px 15px;
-    z-index: 2;
-}
-
-
-.third .photos .photo:nth-last-child(-n+3)::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.25);
-    z-index: 1;
-}
-
-.third button {
-    margin-top: 45px;
-    height: 40px;
-    width: 150px;
-    border: none;
-    border-radius: 50px;
 }
