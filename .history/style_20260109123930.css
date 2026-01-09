@@ -29,15 +29,20 @@
 }
 
 nav {
+    position: sticky; /* სტიკი */
+    top: 0;
+    z-index: 100; /* ფოტო და სხვა ელემენტების ზემოთ */
     background-color: #FFFDF2;
     height: 90px;
-    width: 87%;
-    margin: 0 auto;
+    width: 100%;  /* სრული სიგანე */
     padding: 0 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+
+
 
 .navleftside {
     display: flex;
@@ -118,14 +123,11 @@ nav {
 .firsttext h1 {
     font-size: 55px;
     font-weight: 300;
-    animation: mtavari 3s;
 }
 
 .firsttext p {
     font-size: 20px;
     margin-bottom: 5px;
-    animation: mtavari 3s;
-
 }
 
 .firsttext button {
@@ -135,8 +137,6 @@ nav {
     border: none;
     font-size: 17px;
     cursor: pointer;
-    animation: mtavari 3s;
-
 }
 
 form {
@@ -240,14 +240,4 @@ form button:hover {
     background-color: transparent;
     color: #092423;
     border: #092423 1px solid;
-}
-
-@keyframes mtavari {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
 }

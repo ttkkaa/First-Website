@@ -118,14 +118,12 @@ nav {
 .firsttext h1 {
     font-size: 55px;
     font-weight: 300;
-    animation: mtavari 3s;
+    animation: mtavari 1s;
 }
 
 .firsttext p {
     font-size: 20px;
     margin-bottom: 5px;
-    animation: mtavari 3s;
-
 }
 
 .firsttext button {
@@ -135,8 +133,6 @@ nav {
     border: none;
     font-size: 17px;
     cursor: pointer;
-    animation: mtavari 3s;
-
 }
 
 form {
