@@ -578,7 +578,6 @@ form button:hover {
     color: white;
     font-size: 17px;
     cursor: pointer;
-    transition: 0.5s;
     border-radius: 50px
 }
 
@@ -596,6 +595,4 @@ form button:hover {
 
 .sixth .cardtop button:hover {
     background-color: transparent;
-    border: 1px solid #092423;
-    color: #092423;
 }

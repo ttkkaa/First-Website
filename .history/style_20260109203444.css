@@ -577,25 +577,11 @@ form button:hover {
     background-color: #092423;
     color: white;
     font-size: 17px;
-    cursor: pointer;
-    transition: 0.5s;
     border-radius: 50px
 }
 
 .sixth .cardbottom {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    font-size: 20px;
-    font-weight: 200;
-    color: #092423;
-}
-
-.sixth .cardtop button:hover {
-    background-color: transparent;
-    border: 1px solid #092423;
-    color: #092423;
+    
 }

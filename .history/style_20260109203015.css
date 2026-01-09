@@ -511,7 +511,7 @@ form button:hover {
 
 .sixth .right .card {
     width: 400px;
-    height: 520px;
+    height: 480px;
     background-color: white;
     margin-top: 120px;
     margin-left: 25px;
@@ -570,32 +570,7 @@ form button:hover {
 }
 
 .sixth .cardtop button {
-    width: 300px;
-    height: 42px;
+    width: 250px;
+    height: 35px;
     margin-top: 10px;
-    border: none;
-    background-color: #092423;
-    color: white;
-    font-size: 17px;
-    cursor: pointer;
-    transition: 0.5s;
-    border-radius: 50px
-}
-
-.sixth .cardbottom {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    font-size: 20px;
-    font-weight: 200;
-    color: #092423;
-}
-
-.sixth .cardtop button:hover {
-    background-color: transparent;
-    border: 1px solid #092423;
-    color: #092423;
 }

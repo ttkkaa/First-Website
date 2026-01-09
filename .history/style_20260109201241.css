@@ -511,7 +511,7 @@ form button:hover {
 
 .sixth .right .card {
     width: 400px;
-    height: 520px;
+    height: 480px;
     background-color: white;
     margin-top: 120px;
     margin-left: 25px;
@@ -532,9 +532,9 @@ form button:hover {
 .cardtop p:first-of-type{
     position: absolute;
     padding: 1px;
-    top: -10px;
+    top: -8px;
     left: 160px;
-    width: 90px;
+    width: 80px;
     height: 23px;
     font-size: 14px;
     color: white;
@@ -546,56 +546,16 @@ form button:hover {
     padding-top: 40px;
     font-weight: 300;
     font-size: 20px;
-    margin-bottom: 10px;
 }
 
-.cardtop p:nth-of-type(2) {
-    font-size: 23px;
-    font-weight: 200;
-    margin-right: 115px;
-    color: #092423;
-}
-
-.cardtop p:nth-of-type(3) {
-    font-size: 55px;
-    font-weight: 500;
-    margin-top: -35px;
-    color: #092423;
-}
-
-.cardtop p:nth-of-type(4) {
-    font-size: 10px;
-    font-weight: 300;
-    margin-top: -8px;
-}
-
-.sixth .cardtop button {
-    width: 300px;
-    height: 42px;
-    margin-top: 10px;
-    border: none;
-    background-color: #092423;
-    color: white;
-    font-size: 17px;
-    cursor: pointer;
-    transition: 0.5s;
-    border-radius: 50px
-}
-
-.sixth .cardbottom {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+.sixth .cardtop .doll {
     font-size: 20px;
     font-weight: 200;
     color: #092423;
 }
-
-.sixth .cardtop button:hover {
-    background-color: transparent;
-    border: 1px solid #092423;
+ 
+.sixth .cardtop .cifri {
+    font-weight: 700;
+    font-size: 25px;
     color: #092423;
 }
