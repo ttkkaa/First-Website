@@ -137,7 +137,7 @@ nav {
 form {
     background-color: #FFF9B0;
     width: 730px;
-    height: 600px;
+    height: 510px;
     border-radius: 6px;
     margin-left: 670px;
     margin-top: 90px;
@@ -152,7 +152,7 @@ form {
 form h2 {
     font-weight: 300;
     font-size: 28px;
-    margin-top: -10px;
+    margin-top: -55px;
 }
 
 form h4 {
@@ -182,57 +182,10 @@ form h4 {
     gap:  25px;
 }
 
-.flineinput input, .slineinput input, .tlineinput .foption  {
-    width: 200px;
+.flineinput input, .slineinput input {
+    width: 500px;
     height: 40px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: transparent; 
-    margin-bottom: 15px;  
-}
-
-.tline {
-    display: flex;
-
-}
-
-.tlineinput {
-    display: flex;
-    gap: 27px;
-}
-
-.tlineinput .soption {
-    width: 425px;
-    border: 1px solid black;
     background-color: transparent;
-    border-radius: 10px;
-    height: 40px;
-}
-
-.tline {
-    display: flex;
-    gap: 88px;
-}
-
-form p {
-    font-weight: 300;
-}
-
-form button {
-    width: 230px;
-    height: 45px;
-    border: none;
-    border-radius: 50px;
-    color: white;
-    background-color: #092423;
-    cursor: pointer;
-    transition: 0.6s;
-    margin-left: 220px;
-    font-size: 16px;
-}
-
-form button:hover {
-    background-color: transparent;
-    color: #092423;
-    border: #092423 1px solid;
 }

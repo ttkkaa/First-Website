@@ -29,6 +29,7 @@
 }
 
 nav {
+    position: fixed;
     background-color: #FFFDF2;
     height: 90px;
     width: 87%;

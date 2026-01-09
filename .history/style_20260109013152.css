@@ -106,23 +106,22 @@ nav {
 }
 
 .firsttext {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 100px;
     max-width: 600px;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .firsttext h1 {
-    font-size: 55px;
+    font-size: 60px;
     font-weight: 300;
 }
 
 .firsttext p {
     font-size: 20px;
-    margin-bottom: 5px;
 }
 
 .firsttext button {
@@ -136,103 +135,10 @@ nav {
 
 form {
     background-color: #FFF9B0;
-    width: 730px;
-    height: 600px;
+    width: 750px;
+    height: 510px;
     border-radius: 6px;
     margin-left: 670px;
-    margin-top: 90px;
+    margin-top: 40px;
     padding: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    gap: 20px;
-}
-
-form h2 {
-    font-weight: 300;
-    font-size: 28px;
-    margin-top: -10px;
-}
-
-form h4 {
-    font-weight: 300;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.fline {
-    display: flex;
-    gap: 137px;
-}
-
-.sline {
-    display: flex;
-    gap: 150px;
-}
-
-.sline p:nth-of-type(2) {
-    margin-left: -40px;
-}
-
-
-.flineinput, .slineinput{
-    display: flex;
-    width: 100%;
-    gap:  25px;
-}
-
-.flineinput input, .slineinput input, .tlineinput .foption  {
-    width: 200px;
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: transparent; 
-    margin-bottom: 15px;  
-}
-
-.tline {
-    display: flex;
-
-}
-
-.tlineinput {
-    display: flex;
-    gap: 27px;
-}
-
-.tlineinput .soption {
-    width: 425px;
-    border: 1px solid black;
-    background-color: transparent;
-    border-radius: 10px;
-    height: 40px;
-}
-
-.tline {
-    display: flex;
-    gap: 88px;
-}
-
-form p {
-    font-weight: 300;
-}
-
-form button {
-    width: 230px;
-    height: 45px;
-    border: none;
-    border-radius: 50px;
-    color: white;
-    background-color: #092423;
-    cursor: pointer;
-    transition: 0.6s;
-    margin-left: 220px;
-    font-size: 16px;
-}
-
-form button:hover {
-    background-color: transparent;
-    color: #092423;
-    border: #092423 1px solid;
 }

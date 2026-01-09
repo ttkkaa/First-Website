@@ -137,7 +137,7 @@ nav {
 form {
     background-color: #FFF9B0;
     width: 730px;
-    height: 600px;
+    height: 560px;
     border-radius: 6px;
     margin-left: 670px;
     margin-top: 90px;
@@ -219,20 +219,8 @@ form p {
 }
 
 form button {
-    width: 230px;
-    height: 45px;
+    width: 180px;
+    height: 80px;
     border: none;
     border-radius: 50px;
-    color: white;
-    background-color: #092423;
-    cursor: pointer;
-    transition: 0.6s;
-    margin-left: 220px;
-    font-size: 16px;
-}
-
-form button:hover {
-    background-color: transparent;
-    color: #092423;
-    border: #092423 1px solid;
 }

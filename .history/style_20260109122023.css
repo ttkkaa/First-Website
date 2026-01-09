@@ -219,7 +219,7 @@ form p {
 }
 
 form button {
-    width: 230px;
+    width: 180px;
     height: 45px;
     border: none;
     border-radius: 50px;
@@ -227,8 +227,7 @@ form button {
     background-color: #092423;
     cursor: pointer;
     transition: 0.6s;
-    margin-left: 220px;
-    font-size: 16px;
+    margin-left: 250px;
 }
 
 form button:hover {

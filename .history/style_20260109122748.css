@@ -23,12 +23,13 @@
     z-index: 0;
 }
 
-.first * {
+.first {
     position: relative;
     z-index: 1;
 }
 
 nav {
+    position: fixed;
     background-color: #FFFDF2;
     height: 90px;
     width: 87%;

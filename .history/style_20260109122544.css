@@ -7,7 +7,7 @@
 
 .first {
     height: 100vh;
-    padding-top: 40px;
+    padding-top: 130px;
     background-image: url(/Photos/c837a6_8bdf6d31716e47f28f553df74033ed63~mv2.avif);
     background-size: cover;
     background-position: center;
@@ -37,6 +37,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .navleftside {

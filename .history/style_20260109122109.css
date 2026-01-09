@@ -228,7 +228,7 @@ form button {
     cursor: pointer;
     transition: 0.6s;
     margin-left: 220px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 form button:hover {
