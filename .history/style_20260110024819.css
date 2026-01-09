@@ -601,12 +601,11 @@ form button:hover {
 }
 
 .seventh {
-    height: 700px;
+    min-height: 700px;
     width: 100%;
     background-color: #FFFDF2;
     padding-top: 130px;
     padding-left: 100px;
-    overflow: hidden;
 }
 
 .seventh .left {
@@ -615,11 +614,11 @@ form button:hover {
 
 .seventh .left .img {
     background-image: url(./Photos/1.48.avif);
-    height: 500px;
-    width: 80%;
+    height: 350px;
+    width: 70%;
     background-attachment: fixed;
-
-    background-size: 70%;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
 }

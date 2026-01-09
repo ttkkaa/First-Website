@@ -601,25 +601,19 @@ form button:hover {
 }
 
 .seventh {
-    height: 700px;
+    min-height: 80vh;
     width: 100%;
     background-color: #FFFDF2;
     padding-top: 130px;
     padding-left: 100px;
-    overflow: hidden;
 }
 
 .seventh .left {
-   width: 40%;
+    width: 40%;
 }
 
-.seventh .left .img {
-    background-image: url(./Photos/1.48.avif);
-    height: 500px;
-    width: 80%;
-    background-attachment: fixed;
-
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
+.seventh .left img {
+    position: ;
+    width: 78%;
+    height: 480px;
 }

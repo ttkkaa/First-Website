@@ -617,9 +617,9 @@ form button:hover {
     background-image: url(./Photos/1.48.avif);
     height: 500px;
     width: 80%;
-    background-attachment: fixed;
-
-    background-size: 70%;
-    background-repeat: no-repeat;
+    background-attachment:fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%r;
+    
 }

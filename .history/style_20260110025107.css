@@ -606,7 +606,6 @@ form button:hover {
     background-color: #FFFDF2;
     padding-top: 130px;
     padding-left: 100px;
-    overflow: hidden;
 }
 
 .seventh .left {
@@ -618,8 +617,7 @@ form button:hover {
     height: 500px;
     width: 80%;
     background-attachment: fixed;
-
-    background-size: 70%;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: contain;
 }

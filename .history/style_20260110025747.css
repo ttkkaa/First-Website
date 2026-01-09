@@ -618,8 +618,6 @@ form button:hover {
     height: 500px;
     width: 80%;
     background-attachment: fixed;
-
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: 100% 100%;
+    
 }
