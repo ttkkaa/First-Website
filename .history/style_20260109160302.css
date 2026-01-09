@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+.first {
+    height: 120vh;
+    padding-top: 40px;
+    background-image: url(/Photos/c837a6_8bdf6d31716e47f28f553df74033ed63~mv2.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: static;
+    position: relative;
+}
+
+.first::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 0;
+}
+
+.first * {
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    background-color: #FFFDF2;
+    height: 90px;
+    width: 87%;
+    margin: 0 auto;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navleftside {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navleftside img {
+    height: 30px;
+    width: 28px;
+}
+
+.navleftside a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #092423;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navlist ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: #092423;
+}
+
+.navlist ul li a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login i {
+    font-size: 24px;
+}
+
+
+.navlist button {
+    width: 160px;
+    height: 38px;
+    background-color: #092423;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    transition: 0.3s;
+}
+
+.navlist button:hover {
+    background-color: #FFFDF2;
+    color: #092423;
+    border: 1px solid #092423;
+}
+
+.firsttext {
+    margin-top: 80px;
+    margin-left: 100px;
+    max-width: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.firsttext h1 {
+    font-size: 55px;
+    font-weight: 300;
+    animation: mtavari 3s;
+}
+
+.firsttext p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    animation: mtavari 3s;
+
+}
+
+.firsttext button {
+    width: 200px;
+    height: 58px;
+    border-radius: 50px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    animation: mtavari 3s;
+
+}
+
+.firsttext button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+form {
+    background-color: #FFF9B0;
+    width: 730px;
+    height: 550px;
+    border-radius: 6px;
+    margin-left: 670px;
+    margin-top: 145px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+form h2 {
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+form h4 {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.fline {
+    display: flex;
+    gap: 137px;
+}
+
+.sline {
+    display: flex;
+    gap: 150px;
+}
+
+.sline p:nth-of-type(2) {
+    margin-left: -40px;
+}
+
+
+.flineinput, .slineinput{
+    display: flex;
+    width: 100%;
+    gap:  10px;
+}
+
+.flineinput input, .slineinput input, .tlineinput .foption  {
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: transparent; 
+    margin-bottom: 10px;  
+}
+
+.tline {
+    display: flex;
+
+}
+
+.tlineinput {
+    display: flex;
+    gap: 27px;
+}
+
+.tlineinput .soption {
+    width: 425px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 35px;
+}
+
+.tline {
+    display: flex;
+    gap: 88px;
+}
+
+form p {
+    font-weight: 300;
+}
+
+form button {
+    width: 230px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #092423;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-left: 220px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+form button:hover {
+    background-color: transparent;
+    color: #092423;
+    border: #092423 1px solid;
+}
+
+@keyframes mtavari {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.second h2 {
+    margin-top: 430px;
+    margin-left: 80px;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.second .cards {
+    display: flex;
+    gap: 15px;
+
+}
+
+.second .card1 {
+    margin-left: 85px;
+}
+
+.second .card {
+    background-color: #FFF9B0;
+    width: 323px;
+    height: 330px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+    padding-top: 50px;
+} 
+
+.second .card h3 {
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.second .card p {
+    font-weight: 200;
+}
+
+.third {
+    width: 100%;
+    background-color: #4C5B5C;
+    height: 110vh;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.third h2 {
+    color: #FFFDF2;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.third p {
+    color: #FFFDF2;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.third .photos {
+    display: flex;
+    gap: 23px;
+}
+
+.third .photo {
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 420px;
+    height: 560px;
+    position: relative;
+}
+
+.third .photo1 {
+    margin-left: 100px;
+}
+
+
+.third .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.third .photo:hover img {
+    transform: scale(1.1)
+}
+
+.third .photos .photo p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #f0f0f0;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 15px;
+    z-index: 2;
+}
+
+
+.third .photos .photo:nth-last-child(-n+3)::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.third button {
+    margin-top: 45px;
+    height: 55px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    color: #4C5B5C;
+    background-color: white;
+}
+
+
+ @media screen and (min-width: 1600px) { nav { width: 85%; padding: 0 80px; } .firsttext { margin-left: 150px; margin-top: 100px; max-width: 700px; } .firsttext h1 { font-size: 65px; } .firsttext p { font-size: 22px; } form { width: 800px; height: 580px; margin-left: 950px; margin-top: 120px; padding: 50px; } form h2 { font-size: 28px; } .flineinput input, .slineinput input, .tlineinput .foption { width: 220px; height: 40px; } .tlineinput .soption { width: 465px; height: 40px; } .second h2 { margin-left: 120px; font-size: 50px; } .second .card1 { margin-left: 125px; } .second .card { width: 360px; height: 350px; padding-left: 45px; padding-top: 55px; } .third .photo1 { margin-left: 150px; } .third .photo { width: 460px; height: 600px; } } /* Responsiveness for Extra Large Screens (1920px and above) */ @media screen and (min-width: 1920px) { .first { height: 125vh; } nav { width: 80%; padding: 0 100px; } .navlist { gap: 80px; } .navlist ul { gap: 60px; } .firsttext { margin-left: 200px; margin-top: 120px; max-width: 800px; } .firsttext h1 { font-size: 75px; } .firsttext p { font-size: 24px; } .firsttext button { width: 220px; height: 65px; font-size: 18px; } form { width: 850px; height: 600px; margin-left: 1150px; margin-top: 100px; padding: 60px; } form h2 { font-size: 32px; } form h4 { font-size: 18px; } .flineinput input, .slineinput input, .tlineinput .foption { width: 240px; height: 42px; } .tlineinput .soption { width: 495px; height: 42px; } form button { width: 250px; height: 40px; font-size: 17px; margin-left: 280px; } .second h2 { margin-left: 150px; font-size: 55px; margin-top: 450px; } .second .card1 { margin-left: 155px; } .second .card { width: 400px; height: 370px; padding-left: 50px; padding-top: 60px; gap: 25px; } .second .card h3 { font-size: 25px; } .second .card p { font-size: 16px; } .third { height: 115vh; padding-top: 120px; } .third h2 { font-size: 50px; } .third p { font-size: 22px; margin-top: 25px; } .third .photo1 { margin-left: 200px; } .third .photo { width: 500px; height: 650px; margin-top: 60px; } .third .photos .photo p { font-size: 26px; bottom: 25px; left: 25px; } .third button { height: 60px; width: 220px; margin-top: 50px; } } /* Responsiveness for Ultra Large Screens (2560px and above) */ @media screen and (min-width: 2560px) { .first { height: 130vh; } nav { width: 75%; height: 100px; padding: 0 120px; } .navleftside img { height: 35px; width: 33px; } .navleftside a { font-size: 20px; } .navlist { gap: 100px; } .navlist ul { gap: 70px; font-size: 18px; } .navlist button { width: 180px; height: 42px; font-size: 16px; } .firsttext { margin-left: 280px; margin-top: 150px; max-width: 1000px; } .firsttext h1 { font-size: 90px; } .firsttext p { font-size: 28px; } .firsttext button { width: 250px; height: 70px; font-size: 20px; } form { width: 950px; height: 650px; margin-left: 1550px; margin-top: 80px; padding: 70px; } form h2 { font-size: 36px; } form h4 { font-size: 20px; } .flineinput input, .slineinput input, .tlineinput .foption { width: 270px; height: 45px; font-size: 16px; } .tlineinput .soption { width: 555px; height: 45px; font-size: 16px; } form button { width: 270px; height: 45px; font-size: 18px; margin-left: 310px; } .second h2 { margin-left: 220px; font-size: 65px; margin-top: 500px; } .second .card1 { margin-left: 225px; } .second .cards { gap: 20px; } .second .card { width: 480px; height: 420px; padding-left: 60px; padding-top: 70px; gap: 30px; } .second .card h3 { font-size: 28px; } .second .card p { font-size: 18px; } .third { height: 130vh; padding-top: 150px; } .third h2 { font-size: 60px; } .third p { font-size: 26px; margin-top: 30px; } .third .photo1 { margin-left: 320px; } .third .photos { gap: 30px; } .third .photo { width: 630px; height: 780px; margin-top: 70px; } .third .photos .photo p { font-size: 30px; bottom: 30px; left: 30px; } .third button { height: 65px; width: 240px; margin-top: 60px; font-size: 17px; } }
