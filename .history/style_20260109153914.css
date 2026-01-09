@@ -372,10 +372,8 @@ form button:hover {
 
 .third button {
     margin-top: 45px;
-    height: 55px;
-    width: 200px;
+    height: 45px;
+    width: 180px;
     border: none;
     border-radius: 50px;
-    color: #4C5B5C;
-    background-color: white;
 }
