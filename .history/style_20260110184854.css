@@ -209,7 +209,7 @@ form h4 {
 
 .tlineinput {
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
 
 .tlineinput .soption {
@@ -222,7 +222,7 @@ form h4 {
 
 .tline {
     display: flex;
-    gap: 75px;
+    gap: 88px;
 }
 
 form p {
