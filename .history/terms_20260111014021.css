@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
         opacity: 1;
     }
 }
+
 
 section {
     display: flex;
@@ -49,6 +51,6 @@ section p {
     line-height: 25px;
 }
 
-.Prthird a {
+/* .Prthird a {
     color: black;
-}
+} */

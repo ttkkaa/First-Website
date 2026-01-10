@@ -102,7 +102,6 @@ nav {
     border-radius: 50px;
     color: white;
     transition: 0.3s;
-    cursor: pointer;
 }
 
 .navlist button:hover {

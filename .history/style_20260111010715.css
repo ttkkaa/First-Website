@@ -102,7 +102,6 @@ nav {
     border-radius: 50px;
     color: white;
     transition: 0.3s;
-    cursor: pointer;
 }
 
 .navlist button:hover {
@@ -756,7 +755,6 @@ footer .one .top {
 
 footer .one .top a {
     text-decoration: none;
-    color: black;
 }
 
 footer .one .top img {
