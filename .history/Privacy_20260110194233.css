@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFDF2;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    color: #092423;
+}
+
+section h1 {
+    font-weight: 300;
+    font-size: 50px;
+    margin-right: 680px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+section h2 {
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+section p {
+    font-weight: 200;
+    margin-right: 260px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
