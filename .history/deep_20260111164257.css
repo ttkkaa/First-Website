@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: #FFFDF2;
+}
+
+.text .one h1 {
+    font-size: 25px;
+    font-weight: 300;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    color: #092423;
+}
+
+body {
+    background-color: #FFFDF2;
+}
+
+.Deeptext {
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.Deeptext .one {
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.Deeptext .one h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 23px;
+}
+
+.Deeptext p {
+    font-weight: 300;
+}
+
+.Deeptext .one button {
+    background-color: #092423;
+    width: 130px;
+    height: 40px;
+    color: rgb(232, 232, 232);
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Deeptext .one button:hover {
+    background-color: transparent;
+    color: #092423;
+    border: 1px solid #092423;
+}

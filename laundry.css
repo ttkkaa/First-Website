@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    color: #092423;
+}
+
+body {
+    background-color: #FFFDF2;
+}
+
+.laundrytext {
+    margin-top: 130px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.laundrytext .one {
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.laundrytext .one h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 23px;
+}
+
+.laundrytext p {
+    font-weight: 300;
+}
+
+.laundrytext .one button {
+    background-color: #092423;
+    width: 130px;
+    height: 40px;
+    color: rgb(232, 232, 232);
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.laundrytext .one button:hover {
+    background-color: transparent;
+    color: #092423;
+    border: 1px solid #092423;
+}
+
+.laundrytext .two h2, .laundrytext .three h2 {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.laundrytext .two p {
+    font-weight: 300;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.laundrytext .three p {
+    font-weight: 300;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    margin-bottom: 60px;
+}
+

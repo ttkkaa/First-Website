@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    color: #092423;
+}
+
+body {
+    background-color: #FFFDF2;
+}
+
+.furnituretext {
+    margin-top: 130px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.furnituretext .one {
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.furnituretext .one h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 23px;
+}
+
+.furnituretext p {
+    font-weight: 300;
+}
+
+.furnituretext .one button {
+    background-color: #092423;
+    width: 130px;
+    height: 40px;
+    color: rgb(232, 232, 232);
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.furnituretext .one button:hover {
+    background-color: transparent;
+    color: #092423;
+    border: 1px solid #092423;
+}
+
+.furnituretext .two h2, .Deeptext .three h2 {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.furnituretext .two p {
+    font-weight: 300;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.furnituretext .three p {
+    font-weight: 300;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    margin-bottom: 60px;
+}
+

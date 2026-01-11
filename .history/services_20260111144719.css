@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFDF2;
+    opacity: 0;
+    animation: open 3s ease forwards;
+
+}
+
+@keyframes open {
+    to {
+        opacity: 1;
+    }
+}
+
+.services {
+    padding: 80px 100px;
+}
+
+.services h1 {
+    text-align: center;
+    font-size: 53px;
+    font-weight: 300;
+    color: #092423;
+    margin-bottom: 10px;
+}
+
+p:first-of-type {
+    font-size: 23px;
+    font-weight: 300;
+    color: rgb(19, 19, 19);
+    padding-top: 15px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #555;
+}
+
+.servicecard {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    border-top: 1px solid #ddd;
+    gap: 40px;
+}
+
+.servicecard img {
+    width: 135px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info {
+    flex: 1;
+}
+
+.info h3 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #092423
+}
+
+.info p {
+    color: #161616;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #092423;
+    m
+}
+
+button {
+    background-color: #092423;
+    color: #FFFDF2;
+    border: none;
+    padding: 12px 26px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0f3a37;
+}
