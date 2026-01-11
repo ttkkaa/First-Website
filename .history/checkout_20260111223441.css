@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.one {
+    padding: 20px 285px 20px;
+    letter-spacing: 1px;
+}
+
+.one .pir {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.one .meo {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #B2B2B2;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 330px;
+    gap: 5px;
+}
+
+.two h1 {
+    font-weight: 300;
+    font-size: 23px;
+}

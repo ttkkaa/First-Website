@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #FFFDF2;
+    opacity: 0;
+    animation: open 0.6s ease forwards;
+
+}
+
+@keyframes open {
+    to {
+        opacity: 1;
+    }
+}
+
+.plansubt {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.plansubt h1 {
+    font-weight: 300;
+    font-size: 53px;
+}
+
+.plansubt p {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.plans {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.planscard {
+    width: 410px;
+    height: 490px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.planscard .top {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.planscard .top h2 {
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.planscard .top .dollar {
+    margin-left: -70px;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+.planscard .top h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: -30px;
+}
+
+.planscard .top p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.planscard .top button {
+    width: 70%;
+    height: 55px;
+    background-color: #092423;
+    color: rgb(233, 233, 233);
+    border-radius: 50px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.planscard .top button:hover {
+    text-decoration: underline;
+}
+
+
+.planscard .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.planscard2 {
+    background-color: #FFF9B0;
+}
+
+.planscard2 .bottom {
+    background-color: #FFFDF2;
+    height: 50%;
+}
+
+/* .planscard2 .top {
+    position: relative;
+    height: 50%;
+} */
+
+.planscard2 .absolute {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(247, 247, 247);
+    background-color: #092423;
+    width: 80px;
+    height: 25px;
+    padding: 3px;
+}
+
+.planscard2 .top .dollar {
+    margin-left: -80px;
+}

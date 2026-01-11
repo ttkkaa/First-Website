@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.one {
+    padding: 30px 300px 20px;
+}
+
+.one .pir {
+    font-weight: 600;
+}

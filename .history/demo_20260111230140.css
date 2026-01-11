@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #FFFDF2;
+}
+
+a i {
+    color: #052322;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+a {
+    text-align: start;
+}
