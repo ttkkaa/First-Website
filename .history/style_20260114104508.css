@@ -256,31 +256,6 @@ form button:hover {
     border: #092423 1px solid;
 }
 
-.fake-btn {
-    padding: 0;
-}
-
-.fake-btn label {
-    display: inline-flex;
-    width: 230px;
-    height: 35px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.form-error {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #092423;
-    display: none;
-}
-
-#formError:checked ~ .form-error {
-    display: block;
-}
-
-
 @keyframes mtavari {
     from {
         opacity: 0;
@@ -332,7 +307,7 @@ form button:hover {
 .third {
     width: 100%;
     background-color: #4C5B5C;
-    height: 120vh;
+    height: 110vh;
     margin-top: 80px;
     text-align: center;
     padding-top: 100px;
@@ -354,7 +329,6 @@ form button:hover {
 .third .photos {
     display: flex;
     gap: 23px;
-    cursor: pointer;
 }
 
 .third .photo {

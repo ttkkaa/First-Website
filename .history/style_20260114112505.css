@@ -272,7 +272,7 @@ form button:hover {
 .form-error {
     margin-top: 10px;
     font-size: 14px;
-    color: #092423;
+    color: #b00020;
     display: none;
 }
 
@@ -332,7 +332,7 @@ form button:hover {
 .third {
     width: 100%;
     background-color: #4C5B5C;
-    height: 120vh;
+    height: 110vh;
     margin-top: 80px;
     text-align: center;
     padding-top: 100px;
