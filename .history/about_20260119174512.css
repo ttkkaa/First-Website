@@ -288,18 +288,9 @@ button {
 
 @media (max-width: 500px ) {
     section .whoweare .right h1, p {
-        text-align: start;
+        text-align: center;
         margin-left: 0;
         padding-left: 15px;
+        display: flex;
     }
-
-    section .whoweare .left img {
-        width: 400px;
-        height: 350px;
-    }
-
-    .team {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
 }

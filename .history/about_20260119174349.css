@@ -289,17 +289,15 @@ button {
 @media (max-width: 500px ) {
     section .whoweare .right h1, p {
         text-align: start;
-        margin-left: 0;
-        padding-left: 15px;
+        margin-right: 0;
     }
 
-    section .whoweare .left img {
-        width: 400px;
-        height: 350px;
+    section .whoweare .right h1 {
+        font-size: 30px;
     }
 
-    .team {
-        grid-template-columns: repeat(1, 1fr);
+    section .whoweare .right p {
+        font-size: 12px;
+       
     }
-
 }

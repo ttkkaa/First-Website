@@ -80,7 +80,6 @@ section .whoweare .right p {
     font-size: 17px;
     font-weight: 300;
     color: #092423;
-    display: block;
 }
 
 .team {
@@ -247,59 +246,7 @@ button {
 }
 
 @media (max-width: 750px ) {
-    .navleftside a{
-        margin: -150px;
+    section .whoweare img {
+        width: 500px;
     }
-
-    .firsttexts p   {
-        margin: auto;
-    }
-
-    section .whoweare .left img {
-        width: 600px;
-        height: 450px;
-    }
-
-    section .whoweare .right h1, p {
-        text-align: center;
-        margin-left: 150px;
-    }
-
-    section .whoweare .right h1 {
-        font-size: 30px;
-    }
-
-    section .whoweare .right p {
-        font-size: 12px;
-    }
-
-    .info p {
-        margin: auto;
-        text-align: start;
-        padding-right: 22px;
-    }
-
-    .form-wrapper p  {
-        margin: auto;
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
-}
-
-@media (max-width: 500px ) {
-    section .whoweare .right h1, p {
-        text-align: start;
-        margin-left: 0;
-        padding-left: 15px;
-    }
-
-    section .whoweare .left img {
-        width: 400px;
-        height: 350px;
-    }
-
-    .team {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
 }

@@ -292,14 +292,9 @@ button {
         margin-left: 0;
         padding-left: 15px;
     }
-
     section .whoweare .left img {
         width: 400px;
         height: 350px;
+        margin-top: 0;
     }
-
-    .team {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
 }

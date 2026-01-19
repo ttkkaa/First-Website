@@ -8,7 +8,6 @@ body {
     background-color: #FFFDF2;
     opacity: 0;
     animation: open 0.6s ease forwards;
-
 }
 
 @keyframes open {
@@ -57,21 +56,4 @@ section p {
     section h1 {
         margin: auto;
     }
-
-    section h2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 50px;
-    }
-
-    section p {
-        margin: auto;
-        text-align: center;
-    }
-
-    .Trthird {
-        margin-bottom: 100px;
-    }
-
 }
